@@ -1,0 +1,12 @@
+2025-12-12 10:05:33,919 - INFO - Starting HuggingFace Organizations Scraper
+2025-12-12 10:05:33,921 - INFO - Configuration:
+2025-12-12 10:05:33,921 - INFO -   - Start page: 0
+2025-12-12 10:05:33,921 - INFO -   - End page: 5
+2025-12-12 10:05:33,922 - INFO -   - Rate limit delay: 3.0s
+2025-12-12 10:05:33,922 - INFO -   - Max retries: 3
+2025-12-12 10:05:33,922 - INFO -   - AI Cleanup enabled: False
+2025-12-12 10:05:33,922 - INFO - Firecrawl initialized successfully
+2025-12-12 10:05:33,922 - INFO - Starting scrape of 6 pages (pages 0-5)
+2025-12-12 10:06:29,161 - WARNING - No organizations found on page: https://huggingface.co/organizations?p=0
+2025-12-12 10:07:06,230 - WARNING - No organizations found on page: https://huggingface.co/organizations?p=1
+2025-12-12 10:09:50,444 - WARNING - No organizations found on page: https://huggingface.co/organizations?p=2
