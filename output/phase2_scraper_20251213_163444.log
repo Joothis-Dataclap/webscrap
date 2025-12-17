@@ -1,0 +1,9 @@
+2025-12-13 16:34:44,640 - INFO - Phase 2 scraper initialized. Log file: output/phase2_scraper_20251213_163444.log
+2025-12-13 16:34:44,686 - INFO - Loaded checkpoint. Last processed: 2
+2025-12-13 16:34:44,741 - INFO - Starting Phase 2 scraping...
+2025-12-13 16:34:44,741 - INFO - Total organizations: 3
+2025-12-13 16:34:44,742 - INFO - Starting from index: 2
+2025-12-13 16:34:44,742 - INFO - Skipping already processed: NVIDIA
+2025-12-13 16:34:44,743 - INFO - Progress saved to output/test_organizations_detailed.csv
+2025-12-13 16:34:44,744 - INFO - Phase 2 scraping completed!
+2025-12-13 16:34:44,744 - INFO - Enhanced data saved to: output/test_organizations_detailed.csv

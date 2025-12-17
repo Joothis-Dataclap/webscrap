@@ -1,0 +1,6 @@
+2025-12-16 09:29:03,584 - INFO - Phase 2 scraper initialized. Log file: output/phase2_scraper_20251216_092903.log
+2025-12-16 09:29:04,187 - INFO - Loaded checkpoint. Last processed: 11
+2025-12-16 09:29:04,229 - INFO - Scraping details for: https://huggingface.co/briaai
+2025-12-16 09:29:05,322 - INFO - Scraping details for: https://huggingface.co/unsloth
+2025-12-16 09:29:06,239 - INFO - Scraping details for: https://huggingface.co/facebook
+2025-12-16 09:29:06,812 - INFO - Scraping details for: https://huggingface.co/tencent

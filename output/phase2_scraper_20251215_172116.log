@@ -1,0 +1,43 @@
+2025-12-15 17:21:16,561 - INFO - Phase 2 scraper initialized. Log file: output/phase2_scraper_20251215_172116.log
+2025-12-15 17:21:17,120 - WARNING - Could not load checkpoint: Expecting value: line 17970 column 29 (char 635281)
+2025-12-15 17:21:17,136 - INFO - Starting Phase 2 scraping...
+2025-12-15 17:21:17,136 - INFO - Total organizations: 323527
+2025-12-15 17:21:17,137 - INFO - Starting from index: 0
+2025-12-15 17:21:17,137 - INFO - Processing 1/323527: Hugging Face
+2025-12-15 17:21:17,138 - INFO - Scraping details for: https://huggingface.co/huggingface
+2025-12-15 17:21:18,118 - INFO - ✓ Hugging Face: GitHub=https://github.com/huggingface, Website=https://apply.workable.com/huggingface/, Social=https://twitter.com/huggingface, Location=Null
+2025-12-15 17:21:19,122 - INFO - Processing 2/323527: Meta Llama
+2025-12-15 17:21:19,122 - INFO - Scraping details for: https://huggingface.co/meta-llama
+2025-12-15 17:21:19,898 - INFO - ✓ Meta Llama: GitHub=https://github.com/meta-llama, Website=https://ai.meta.com/llama/, https://apply.workable..., Social=Null, Location=Null
+2025-12-15 17:21:20,901 - INFO - Processing 3/323527: Qwen
+2025-12-15 17:21:20,901 - INFO - Scraping details for: https://huggingface.co/Qwen
+2025-12-15 17:21:21,833 - INFO - ✓ Qwen: GitHub=https://github.com/QwenLM, Website=https://qwen.ai/, https://chat.qwen.ai/, https://a..., Social=https://twitter.com/alibaba_qwen, Location=Null
+2025-12-15 17:21:22,836 - INFO - Processing 4/323527: Hugging Face Agents Course
+2025-12-15 17:21:22,836 - INFO - Scraping details for: https://huggingface.co/agents-course
+2025-12-15 17:21:23,327 - INFO - ✓ Hugging Face Agents Course: GitHub=Null, Website=https://bit.ly/hf-learn-agents, https://huggingfac..., Social=Null, Location=Null
+2025-12-15 17:21:24,329 - INFO - Processing 5/323527: NVIDIA
+2025-12-15 17:21:24,330 - INFO - Scraping details for: https://huggingface.co/nvidia
+2025-12-15 17:21:25,958 - INFO - ✓ NVIDIA: GitHub=https://github.com/nvidia, Website=https://www.nvidia.com/, https://apply.workable.co..., Social=Null, Location=Null
+2025-12-15 17:21:26,960 - INFO - Processing 6/323527: Google
+2025-12-15 17:21:26,960 - INFO - Scraping details for: https://huggingface.co/google
+2025-12-15 17:21:27,759 - INFO - ✓ Google: GitHub=https://github.com/google-research/timesfm, https:..., Website=https://hf.co/collections/google/health-ai-develop..., Social=Null, Location=Null
+2025-12-15 17:21:28,761 - INFO - Processing 7/323527: Stability AI
+2025-12-15 17:21:28,761 - INFO - Scraping details for: https://huggingface.co/stabilityai
+2025-12-15 17:21:30,650 - INFO - ✓ Stability AI: GitHub=https://github.com/Stability-AI, Website=https://stability.ai/license, https://hf.co/collec..., Social=https://twitter.com/stabilityai, Location=Null
+2025-12-15 17:21:31,652 - INFO - Processing 8/323527: Black Forest Labs
+2025-12-15 17:21:31,652 - INFO - Scraping details for: https://huggingface.co/black-forest-labs
+2025-12-15 17:21:32,049 - INFO - ✓ Black Forest Labs: GitHub=https://github.com/black-forest-labs, Website=https://bfl.ai, https://hf.co/collections/black-fo..., Social=https://twitter.com/bfl_ml, Location=Null
+2025-12-15 17:21:33,051 - INFO - Processing 9/323527: OpenAI
+2025-12-15 17:21:33,052 - INFO - Scraping details for: https://huggingface.co/openai
+2025-12-15 17:21:33,678 - INFO - ✓ OpenAI: GitHub=https://github.com/openai/gpt-oss, Website=https://openai.com/, https://cookbook.openai.com/t..., Social=Null, Location=Null
+2025-12-15 17:21:34,681 - INFO - Processing 10/323527: Microsoft
+2025-12-15 17:21:34,681 - INFO - Scraping details for: https://huggingface.co/microsoft
+2025-12-15 17:21:35,387 - INFO - ✓ Microsoft: GitHub=https://github.com/microsoft, Website=https://www.microsoft.com/en-us/research/, https:/..., Social=Null, Location=Null
+2025-12-15 17:21:36,977 - INFO - Progress saved to output/huggingface_organizations_detailed.csv
+2025-12-15 17:21:36,977 - INFO - Progress saved. Completed 10/323527 organizations
+2025-12-15 17:21:37,979 - INFO - Processing 11/323527: Mistral AI_
+2025-12-15 17:21:37,980 - INFO - Scraping details for: https://huggingface.co/mistralai
+2025-12-15 17:21:39,240 - INFO - ✓ Mistral AI_: GitHub=https://github.com/mistralai, Website=https://mistral.ai, https://mistral.ai/, https://a..., Social=https://twitter.com/mistralai, Location=Null
+2025-12-15 17:21:40,243 - INFO - Processing 12/323527: BRIA AI
+2025-12-15 17:21:40,244 - INFO - Scraping details for: https://huggingface.co/briaai
+2025-12-15 17:21:40,872 - INFO - ✓ BRIA AI: GitHub=https://github.com/Bria-AI, Website=https://bria.ai/, https://apply.workable.com/huggi..., Social=https://twitter.com/bria_ai_, Location=Null

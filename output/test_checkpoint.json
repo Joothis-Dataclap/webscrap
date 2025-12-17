@@ -1,0 +1,47 @@
+{
+  "last_processed_index": 2,
+  "processed_organizations": [
+    {
+      "index": 0,
+      "github_links": "https://github.com/huggingface",
+      "website_links": "https://apply.workable.com/huggingface/",
+      "social_media_links": "https://twitter.com/huggingface",
+      "location": "Null",
+      "description": "",
+      "member_count": "Null",
+      "model_count": "Null",
+      "dataset_count": "Null",
+      "last_updated": "2025-12-13",
+      "scrape_status": "success",
+      "scrape_timestamp": "2025-12-13T10:44:15.001495"
+    },
+    {
+      "index": 1,
+      "github_links": "https://github.com/meta-llama",
+      "website_links": "https://ai.meta.com/llama/, https://apply.workable.com/huggingface/",
+      "social_media_links": "Null",
+      "location": "Null",
+      "description": "",
+      "member_count": "Null",
+      "model_count": "4",
+      "dataset_count": "Null",
+      "last_updated": "2025-12-13",
+      "scrape_status": "success",
+      "scrape_timestamp": "2025-12-13T10:44:17.021111"
+    },
+    {
+      "index": 2,
+      "github_links": "https://github.com/nvidia",
+      "website_links": "https://www.nvidia.com/, https://hf.co/collections/nvidia/nemo-gym, https://hf.co/collections/nvidia/bionemo, https://apply.workable.com/huggingface/",
+      "social_media_links": "Null",
+      "location": "Null",
+      "description": "",
+      "member_count": "Null",
+      "model_count": "Null",
+      "dataset_count": "Null",
+      "last_updated": "2025-12-13",
+      "scrape_status": "success",
+      "scrape_timestamp": "2025-12-13T10:44:19.636080"
+    }
+  ]
+}

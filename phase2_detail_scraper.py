@@ -20,10 +20,12 @@ from urllib.parse import urljoin, urlparse
 import os
 from typing import Dict, List, Optional, Tuple
 
+# (Google Sheets integration removed) - local CSV-only saver
+
 class Phase2OrganizationScraper:
     def __init__(self, input_csv_path: str, output_csv_path: str, checkpoint_file: str = "output/phase2_checkpoint.json"):
         """
-        Initialize the Phase 2 scraper
+        Initialize the Phase 2 scraper (local CSV output only)
         
         Args:
             input_csv_path: Path to Phase 1 CSV file
@@ -55,6 +57,9 @@ class Phase2OrganizationScraper:
         
         # Initialize enhanced dataframe columns
         self.initialize_enhanced_dataframe()
+        
+        # Running in local-only mode (no Google Sheets updates)
+        self.logger.info("Google Sheets integration removed; saving locally to CSV only")
         
     def setup_logging(self):
         """Setup logging to both file and console"""
@@ -141,7 +146,7 @@ class Phase2OrganizationScraper:
         """
         for attempt, delay in enumerate(self.retry_delays):
             try:
-                response = self.session.get(url, timeout=30)
+                response = self.session.get(url, timeout=60)  # Increased timeout to 60s
                 if response.status_code == 200:
                     return response, "success"
                 elif response.status_code == 429:  # Rate limited
@@ -151,6 +156,11 @@ class Phase2OrganizationScraper:
                 else:
                     self.logger.warning(f"HTTP {response.status_code} for {url}")
                     
+            except requests.Timeout:
+                self.logger.warning(f"Timeout for {url} (attempt {attempt + 1})")
+                if attempt < len(self.retry_delays) - 1:
+                    self.logger.info(f"Waiting {delay} seconds before retry...")
+                    time.sleep(delay)
             except requests.RequestException as e:
                 self.logger.warning(f"Request failed for {url} (attempt {attempt + 1}): {e}")
                 
@@ -167,18 +177,26 @@ class Phase2OrganizationScraper:
         for link_type, pattern_list in patterns.items():
             found_links = []
             
-            # Look for links in href attributes
-            for pattern in pattern_list:
-                links = soup.find_all('a', href=re.compile(pattern, re.I))
-                for link in links:
-                    href = link.get('href', '')
-                    if href and href not in found_links:
-                        # Convert relative URLs to absolute
-                        if href.startswith('/'):
-                            href = 'https://huggingface.co' + href
-                        found_links.append(href)
-            
-            results[link_type] = found_links if found_links else ['Null']
+            try:
+                # Look for links in href attributes
+                for pattern in pattern_list:
+                    try:
+                        links = soup.find_all('a', href=re.compile(pattern, re.I))
+                        for link in links:
+                            href = link.get('href', '')
+                            if href and href.strip() and href not in found_links:
+                                # Convert relative URLs to absolute
+                                if href.startswith('/'):
+                                    href = 'https://huggingface.co' + href
+                                found_links.append(href)
+                    except re.error as e:
+                        self.logger.warning(f"Regex error for pattern '{pattern}': {e}")
+                        continue
+                
+                results[link_type] = found_links if found_links else ['Null']
+            except Exception as e:
+                self.logger.warning(f"Error extracting {link_type} links: {e}")
+                results[link_type] = ['Null']
         
         return results
     
@@ -222,8 +240,8 @@ class Phase2OrganizationScraper:
         # Define patterns for different types of links
         link_patterns = {
             'github': [r'github\.com', r'gitlab\.com'],
-            'website': [r'http[s]?://(?!.*huggingface\.co)(?!.*github\.com)(?!.*twitter\.com)(?!.*linkedin\.com).*'],
-            'social_media': [r'twitter\.com', r'linkedin\.com', r'facebook\.com', r'instagram\.com', r'youtube\.com']
+            'website': [r'https?://[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,}(?![^"\']*(?:huggingface|github|twitter|linkedin|facebook|instagram|youtube))'],
+            'social_media': [r'twitter\.com', r'x\.com', r'linkedin\.com', r'facebook\.com', r'instagram\.com', r'youtube\.com']
         }
         
         # Extract links
@@ -236,20 +254,30 @@ class Phase2OrganizationScraper:
                 'meta[name="description"]',
                 '.organization-description',
                 '.prose p',
-                'article p:first-of-type'
+                'article p:first-of-type',
+                'p'  # Fallback to any paragraph
             ]
             description = self.extract_text_content(soup, description_selectors)
-            if description == "Null":
+            if description == "Null" or not description:
                 # Try meta description
                 meta_desc = soup.find('meta', attrs={'name': 'description'})
-                description = meta_desc.get('content', 'Null') if meta_desc else 'Null'
+                if meta_desc:
+                    description = meta_desc.get('content', 'Null')
+                else:
+                    # Try to get first meaningful paragraph
+                    for p in soup.find_all('p'):
+                        text = p.get_text(strip=True)
+                        if text and len(text) > 20:
+                            description = text[:500]  # Limit to 500 chars
+                            break
             
             # Location - look for location information
             location_selectors = [
                 '.location',
                 '.organization-location',
                 '[data-testid="location"]',
-                '.prose .location'
+                '.prose .location',
+                '[class*="location"]'
             ]
             location = self.extract_text_content(soup, location_selectors)
             
@@ -307,6 +335,7 @@ class Phase2OrganizationScraper:
         except Exception as e:
             self.logger.error(f"Failed to save progress: {e}")
     
+    
     def run_phase2_scraping(self):
         """Run the Phase 2 scraping process"""
         self.logger.info("Starting Phase 2 scraping...")
@@ -344,12 +373,12 @@ class Phase2OrganizationScraper:
                 social = details.get('social_media_links', 'Null')
                 location = details.get('location', 'Null')
                 
-                self.logger.info(f"✓ {org_name}: GitHub={github[:50]}{'...' if len(github) > 50 else ''}, "
+                self.logger.info(f"[OK] {org_name}: GitHub={github[:50]}{'...' if len(github) > 50 else ''}, "
                                f"Website={website[:50]}{'...' if len(website) > 50 else ''}, "
                                f"Social={social[:50]}{'...' if len(social) > 50 else ''}, "
                                f"Location={location}")
             else:
-                self.logger.warning(f"✗ {org_name}: {status}")
+                self.logger.warning(f"[ERROR] {org_name}: {status}")
                 
                 if any(field == 'Null' for field in [details.get('github_links'), details.get('website_links'), 
                                                    details.get('social_media_links'), details.get('location')]):
