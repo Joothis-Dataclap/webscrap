@@ -1,0 +1,20 @@
+2025-12-17 14:20:33,895 - INFO - Phase 2 scraper initialized. Log file: output/phase2_scraper_20251217_142033.log
+2025-12-17 14:20:34,778 - WARNING - Could not load checkpoint: Expecting property name enclosed in double quotes: line 104221 column 7 (char 4495670)
+2025-12-17 14:20:34,844 - INFO - Google Sheets integration removed; saving locally to CSV only
+2025-12-17 14:20:34,844 - INFO - Starting Phase 2 scraping...
+2025-12-17 14:20:34,844 - INFO - Total organizations: 323527
+2025-12-17 14:20:34,844 - INFO - Starting from index: 0
+2025-12-17 14:20:34,845 - INFO - Processing 1/323527: Hugging Face
+2025-12-17 14:20:34,845 - INFO - Scraping details for: https://huggingface.co/huggingface
+2025-12-17 14:20:36,288 - INFO - [OK] Hugging Face: GitHub=https://github.com/huggingface, Website=https://huggingface.co, Social=https://twitter.com/huggingface, Location=Null
+2025-12-17 14:20:37,290 - INFO - Processing 2/323527: Meta Llama
+2025-12-17 14:20:37,290 - INFO - Scraping details for: https://huggingface.co/meta-llama
+2025-12-17 14:20:38,090 - INFO - [OK] Meta Llama: GitHub=https://github.com/meta-llama, Website=https://ai.meta.com/llama/, https://github.com/met..., Social=Null, Location=Null
+2025-12-17 14:20:39,092 - INFO - Processing 3/323527: Qwen
+2025-12-17 14:20:39,092 - INFO - Scraping details for: https://huggingface.co/Qwen
+2025-12-17 14:20:40,089 - INFO - [OK] Qwen: GitHub=https://github.com/QwenLM, Website=https://qwen.ai/, https://twitter.com/alibaba_qwen..., Social=https://twitter.com/alibaba_qwen, Location=Null
+2025-12-17 14:20:41,091 - INFO - Processing 4/323527: Hugging Face Agents Course
+2025-12-17 14:20:41,092 - INFO - Scraping details for: https://huggingface.co/agents-course
+2025-12-17 14:20:41,811 - INFO - [OK] Hugging Face Agents Course: GitHub=Null, Website=https://bit.ly/hf-learn-agents, https://huggingfac..., Social=Null, Location=Null
+2025-12-17 14:20:42,813 - INFO - Processing 5/323527: NVIDIA
+2025-12-17 14:20:42,814 - INFO - Scraping details for: https://huggingface.co/nvidia

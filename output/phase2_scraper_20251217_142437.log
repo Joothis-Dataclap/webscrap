@@ -1,0 +1,152 @@
+2025-12-17 14:24:37,286 - INFO - Phase 2 scraper initialized. Log file: output/phase2_scraper_20251217_142437.log
+2025-12-17 14:24:37,819 - INFO - Loaded checkpoint. Last processed: 16203
+2025-12-17 14:24:37,834 - INFO - Google Sheets integration removed; saving locally to CSV only
+2025-12-17 14:24:37,834 - INFO - Starting Phase 2 scraping...
+2025-12-17 14:24:37,835 - INFO - Total organizations: 323527
+2025-12-17 14:24:37,835 - INFO - Starting from index: 16203
+2025-12-17 14:24:37,836 - INFO - Processing 16204/323527: Digital Safety Research Institute
+2025-12-17 14:24:37,836 - INFO - Scraping details for: https://huggingface.co/ul-dsri
+2025-12-17 14:24:38,489 - INFO - [OK] Digital Safety Research Institute: GitHub=https://github.com/ul-dsri, Website=https://github.com/ul-dsri, Social=Null, Location=Null
+2025-12-17 14:24:39,491 - INFO - Processing 16205/323527: Hidden Voices
+2025-12-17 14:24:39,492 - INFO - Scraping details for: https://huggingface.co/hiddenvoices
+2025-12-17 14:24:39,778 - INFO - [OK] Hidden Voices: GitHub=https://github.com/https://github.com/hiddenvoices, Website=https://hidden-voices.github.io/, https://github.c..., Social=Null, Location=Null
+2025-12-17 14:24:40,779 - INFO - Processing 16206/323527: Universitas Majalengka
+2025-12-17 14:24:40,780 - INFO - Scraping details for: https://huggingface.co/unma
+2025-12-17 14:24:41,466 - INFO - [OK] Universitas Majalengka: GitHub=https://github.com/https://github.com/univmajaleng..., Website=https://unma.ac.id, https://twitter.com/univMajale..., Social=https://twitter.com/univMajalengka, Location=Null
+2025-12-17 14:24:42,468 - INFO - Processing 16207/323527: Ajax
+2025-12-17 14:24:42,468 - INFO - Scraping details for: https://huggingface.co/ajax-law
+2025-12-17 14:24:42,959 - INFO - [OK] Ajax: GitHub=https://github.com/ajax-software, Website=https://github.com/ajax-software, Social=Null, Location=Null
+2025-12-17 14:24:43,962 - INFO - Processing 16208/323527: DataSheet
+2025-12-17 14:24:43,962 - INFO - Scraping details for: https://huggingface.co/M-R-W
+2025-12-17 14:24:44,636 - INFO - [OK] DataSheet: GitHub=Null, Website=Null, Social=Null, Location=Null
+2025-12-17 14:24:45,639 - INFO - Processing 16209/323527: ChatGPT Prompts
+2025-12-17 14:24:45,639 - INFO - Scraping details for: https://huggingface.co/awesome-chatgpt-prompts
+2025-12-17 14:24:46,672 - INFO - [OK] ChatGPT Prompts: GitHub=https://github.com/https://github.com/chatgpt-prom..., Website=https://www.chatgpt-prompts.net/, https://github.c..., Social=Null, Location=Null
+2025-12-17 14:24:47,675 - INFO - Processing 16210/323527: ComponentSoft Ltd.
+2025-12-17 14:24:47,675 - INFO - Scraping details for: https://huggingface.co/ComponentSoft
+2025-12-17 14:24:47,993 - INFO - [OK] ComponentSoft Ltd.: GitHub=Null, Website=https://www.componentsoft.io, Social=Null, Location=Null
+2025-12-17 14:24:49,367 - INFO - Progress saved to output/huggingface_organizations_detailed.csv
+2025-12-17 14:24:49,367 - INFO - Progress saved. Completed 16210/323527 organizations
+2025-12-17 14:24:50,369 - INFO - Processing 16211/323527: Bilkent
+2025-12-17 14:24:50,370 - INFO - Scraping details for: https://huggingface.co/Bilkent-CS
+2025-12-17 14:24:50,701 - INFO - [OK] Bilkent: GitHub=Null, Website=https://w3.cs.bilkent.edu.tr/, Social=Null, Location=Null
+2025-12-17 14:24:51,704 - INFO - Processing 16212/323527: YUFI
+2025-12-17 14:24:51,704 - INFO - Scraping details for: https://huggingface.co/yufiofficial
+2025-12-17 14:24:52,644 - INFO - [OK] YUFI: GitHub=Null, Website=https://yufi.rf.gd, Social=Null, Location=Null
+2025-12-17 14:24:53,646 - INFO - Processing 16213/323527: UNIVERSITY OF NEBRASKA MEDICAL CENTER
+2025-12-17 14:24:53,646 - INFO - Scraping details for: https://huggingface.co/UNMC
+2025-12-17 14:24:54,001 - INFO - [OK] UNIVERSITY OF NEBRASKA MEDICAL CENTER: GitHub=Null, Website=https://www.unmc.edu/, Social=Null, Location=Null
+2025-12-17 14:24:55,004 - INFO - Processing 16214/323527: CodeSignal
+2025-12-17 14:24:55,005 - INFO - Scraping details for: https://huggingface.co/codesignal
+2025-12-17 14:24:55,308 - INFO - [OK] CodeSignal: GitHub=https://github.com/CodeSignal, Website=https://codesignal.com/, https://github.com/CodeSi..., Social=Null, Location=Null
+2025-12-17 14:24:56,310 - INFO - Processing 16215/323527: make brain project 2023
+2025-12-17 14:24:56,311 - INFO - Scraping details for: https://huggingface.co/mb23
+2025-12-17 14:24:56,813 - INFO - [OK] make brain project 2023: GitHub=Null, Website=Null, Social=Null, Location=Null
+2025-12-17 14:24:57,815 - INFO - Processing 16216/323527: Telosnex
+2025-12-17 14:24:57,816 - INFO - Scraping details for: https://huggingface.co/telosnex
+2025-12-17 14:24:58,108 - INFO - [OK] Telosnex: GitHub=https://github.com/telosnex, Website=http://www.telosnex.com, https://twitter.com/telos..., Social=https://twitter.com/telosnex, http://www.telosnex...., Location=Null
+2025-12-17 14:24:59,111 - INFO - Processing 16217/323527: TomYo EdTech
+2025-12-17 14:24:59,111 - INFO - Scraping details for: https://huggingface.co/T0mY0
+2025-12-17 14:24:59,401 - INFO - [OK] TomYo EdTech: GitHub=https://github.com/t0my0, Website=https://tomyo.mn, https://github.com/t0my0, Social=Null, Location=Null
+2025-12-17 14:25:00,404 - INFO - Processing 16218/323527: University of Nottingham Ningbo China
+2025-12-17 14:25:00,404 - INFO - Scraping details for: https://huggingface.co/UNNC
+2025-12-17 14:25:00,697 - INFO - [OK] University of Nottingham Ningbo China: GitHub=Null, Website=Null, Social=Null, Location=Null
+2025-12-17 14:25:01,699 - INFO - Processing 16219/323527: Celloscope AI
+2025-12-17 14:25:01,699 - INFO - Scraping details for: https://huggingface.co/celloscopeai
+2025-12-17 14:25:01,991 - INFO - [OK] Celloscope AI: GitHub=Null, Website=http://celloscope.net/, Social=Null, Location=Null
+2025-12-17 14:25:02,993 - INFO - Processing 16220/323527: Tiered Model Ninja
+2025-12-17 14:25:02,994 - INFO - Scraping details for: https://huggingface.co/ai4code-msri
+2025-12-17 14:25:03,319 - INFO - [OK] Tiered Model Ninja: GitHub=Null, Website=Null, Social=Null, Location=Null
+2025-12-17 14:25:04,528 - INFO - Progress saved to output/huggingface_organizations_detailed.csv
+2025-12-17 14:25:04,528 - INFO - Progress saved. Completed 16220/323527 organizations
+2025-12-17 14:25:05,548 - INFO - Processing 16221/323527: ZEIT ONLINE
+2025-12-17 14:25:05,553 - INFO - Scraping details for: https://huggingface.co/ZEITONLINE
+2025-12-17 14:25:05,918 - INFO - [OK] ZEIT ONLINE: GitHub=Null, Website=Null, Social=Null, Location=Null
+2025-12-17 14:25:06,924 - INFO - Processing 16222/323527: TonAI
+2025-12-17 14:25:06,937 - INFO - Scraping details for: https://huggingface.co/TonAI
+2025-12-17 14:25:07,225 - INFO - [OK] TonAI: GitHub=Null, Website=Null, Social=Null, Location=Null
+2025-12-17 14:25:08,228 - INFO - Processing 16223/323527: text-image
+2025-12-17 14:25:08,228 - INFO - Scraping details for: https://huggingface.co/text-image
+2025-12-17 14:25:09,311 - INFO - [OK] text-image: GitHub=Null, Website=Null, Social=Null, Location=Null
+2025-12-17 14:25:10,314 - INFO - Processing 16224/323527: Rendernet AI
+2025-12-17 14:25:10,315 - INFO - Scraping details for: https://huggingface.co/Rendernet
+2025-12-17 14:25:11,572 - INFO - [OK] Rendernet AI: GitHub=Null, Website=https://rendernet.ai, https://twitter.com/renderne..., Social=https://twitter.com/rendernet_ai, Location=Null
+2025-12-17 14:25:12,575 - INFO - Processing 16225/323527: Cognitus Consulting LLC
+2025-12-17 14:25:12,575 - INFO - Scraping details for: https://huggingface.co/LambdaX-AI
+2025-12-17 14:25:13,065 - INFO - [OK] Cognitus Consulting LLC: GitHub=Null, Website=Null, Social=Null, Location=Null
+2025-12-17 14:25:14,069 - INFO - Processing 16226/323527: M0012
+2025-12-17 14:25:14,069 - INFO - Scraping details for: https://huggingface.co/mistralai-m0012
+2025-12-17 14:25:14,377 - INFO - [OK] M0012: GitHub=Null, Website=Null, Social=Null, Location=Null
+2025-12-17 14:25:15,379 - INFO - Processing 16227/323527: M0013
+2025-12-17 14:25:15,379 - INFO - Scraping details for: https://huggingface.co/mistralai-m0013
+2025-12-17 14:25:15,664 - INFO - [OK] M0013: GitHub=Null, Website=Null, Social=Null, Location=Null
+2025-12-17 14:25:16,667 - INFO - Processing 16228/323527: motionsomething
+2025-12-17 14:25:16,668 - INFO - Scraping details for: https://huggingface.co/motionsomething
+2025-12-17 14:25:16,957 - INFO - [OK] motionsomething: GitHub=Null, Website=Null, Social=Null, Location=Null
+2025-12-17 14:25:17,959 - INFO - Processing 16229/323527: library-samples
+2025-12-17 14:25:17,959 - INFO - Scraping details for: https://huggingface.co/library-samples
+2025-12-17 14:25:18,494 - INFO - [OK] library-samples: GitHub=Null, Website=Null, Social=Null, Location=Null
+2025-12-17 14:25:19,497 - INFO - Processing 16230/323527: NLP-magnets
+2025-12-17 14:25:19,498 - INFO - Scraping details for: https://huggingface.co/nlp-magnets
+2025-12-17 14:25:19,828 - INFO - [OK] NLP-magnets: GitHub=Null, Website=Null, Social=Null, Location=Null
+2025-12-17 14:25:20,910 - INFO - Progress saved to output/huggingface_organizations_detailed.csv
+2025-12-17 14:25:20,911 - INFO - Progress saved. Completed 16230/323527 organizations
+2025-12-17 14:25:21,912 - INFO - Processing 16231/323527: Persuasion Technologies
+2025-12-17 14:25:21,913 - INFO - Scraping details for: https://huggingface.co/Persuasion
+2025-12-17 14:25:22,217 - INFO - [OK] Persuasion Technologies: GitHub=Null, Website=Null, Social=Null, Location=Null
+2025-12-17 14:25:23,221 - INFO - Processing 16232/323527: NaturalAntibody
+2025-12-17 14:25:23,221 - INFO - Scraping details for: https://huggingface.co/NaturalAntibody
+2025-12-17 14:25:23,507 - INFO - [OK] NaturalAntibody: GitHub=Null, Website=http://www.naturalantibody.com, Social=Null, Location=Null
+2025-12-17 14:25:24,510 - INFO - Processing 16233/323527: SWPS
+2025-12-17 14:25:24,510 - INFO - Scraping details for: https://huggingface.co/SWPS
+2025-12-17 14:25:25,048 - INFO - [OK] SWPS: GitHub=Null, Website=https://swps.pl/, Social=Null, Location=Null
+2025-12-17 14:25:26,053 - INFO - Processing 16234/323527: WaytoAGI
+2025-12-17 14:25:26,054 - INFO - Scraping details for: https://huggingface.co/waytoAGI
+2025-12-17 14:25:26,575 - INFO - [OK] WaytoAGI: GitHub=Null, Website=http://waytoagi.com/, https://twitter.com/WaytoAGI, Social=https://twitter.com/WaytoAGI, Location=Null
+2025-12-17 14:25:27,578 - INFO - Processing 16235/323527: AIdeo
+2025-12-17 14:25:27,578 - INFO - Scraping details for: https://huggingface.co/adeoservicesai
+2025-12-17 14:25:27,856 - INFO - [OK] AIdeo: GitHub=Null, Website=Null, Social=Null, Location=Null
+2025-12-17 14:25:28,859 - INFO - Processing 16236/323527: CG Tübingen
+2025-12-17 14:25:28,859 - INFO - Scraping details for: https://huggingface.co/CGTuebingen
+2025-12-17 14:25:29,172 - INFO - [OK] CG Tübingen: GitHub=https://github.com/cgtuebingen, Website=https://graphics.cs.uni-tuebingen.de/, https://twi..., Social=https://twitter.com/CG_Tuebingen, Location=Null
+2025-12-17 14:25:30,175 - INFO - Processing 16237/323527: HuggingFaceH4-colab
+2025-12-17 14:25:30,176 - INFO - Scraping details for: https://huggingface.co/HuggingFaceH4-colab
+2025-12-17 14:25:30,480 - INFO - [OK] HuggingFaceH4-colab: GitHub=Null, Website=Null, Social=Null, Location=Null
+2025-12-17 14:25:31,482 - INFO - Processing 16238/323527: ufirst
+2025-12-17 14:25:31,483 - INFO - Scraping details for: https://huggingface.co/ufirst
+2025-12-17 14:25:31,775 - INFO - [OK] ufirst: GitHub=https://github.com/qurami, Website=https://ufirst.com, https://github.com/qurami, Social=Null, Location=Null
+2025-12-17 14:25:32,779 - INFO - Processing 16239/323527: Pulsetech.io
+2025-12-17 14:25:32,779 - INFO - Scraping details for: https://huggingface.co/Pulse-io
+2025-12-17 14:25:33,122 - INFO - [OK] Pulsetech.io: GitHub=Null, Website=https://pulsetech.io, Social=Null, Location=Null
+2025-12-17 14:25:34,125 - INFO - Processing 16240/323527: micro.so
+2025-12-17 14:25:34,126 - INFO - Scraping details for: https://huggingface.co/micro-so
+2025-12-17 14:25:34,447 - INFO - [OK] micro.so: GitHub=Null, Website=http://micro.so, Social=Null, Location=Null
+2025-12-17 14:25:35,625 - INFO - Progress saved to output/huggingface_organizations_detailed.csv
+2025-12-17 14:25:35,625 - INFO - Progress saved. Completed 16240/323527 organizations
+2025-12-17 14:25:36,626 - INFO - Processing 16241/323527: MeridianBet
+2025-12-17 14:25:36,626 - INFO - Scraping details for: https://huggingface.co/meridianbet
+2025-12-17 14:25:36,922 - INFO - [OK] MeridianBet: GitHub=Null, Website=https://meridianbet.rs/, Social=Null, Location=Null
+2025-12-17 14:25:37,925 - INFO - Processing 16242/323527: moves
+2025-12-17 14:25:37,926 - INFO - Scraping details for: https://huggingface.co/incalia
+2025-12-17 14:25:38,232 - INFO - [OK] moves: GitHub=Null, Website=Null, Social=Null, Location=Null
+2025-12-17 14:25:39,236 - INFO - Processing 16243/323527: Latvia
+2025-12-17 14:25:39,236 - INFO - Scraping details for: https://huggingface.co/Latvia
+2025-12-17 14:25:39,521 - INFO - [OK] Latvia: GitHub=Null, Website=Null, Social=Null, Location=Null
+2025-12-17 14:25:40,523 - INFO - Processing 16244/323527: hacknc23-
+2025-12-17 14:25:40,532 - INFO - Scraping details for: https://huggingface.co/hacknc23
+2025-12-17 14:25:41,255 - INFO - [OK] hacknc23-: GitHub=https://github.com/suchir-madap, Website=https://github.com/suchir-madap, Social=Null, Location=Null
+2025-12-17 14:25:42,258 - INFO - Processing 16245/323527: Farsight-AI
+2025-12-17 14:25:42,258 - INFO - Scraping details for: https://huggingface.co/Farsight-AI
+2025-12-17 14:25:42,551 - INFO - [OK] Farsight-AI: GitHub=Null, Website=https://www.farsight-ai.com/, Social=Null, Location=Null
+2025-12-17 14:25:43,556 - INFO - Processing 16246/323527: Universidad de Investigación de Tecnología Experimental Yachay Tech
+2025-12-17 14:25:43,556 - INFO - Scraping details for: https://huggingface.co/uitey
+2025-12-17 14:25:44,072 - INFO - [OK] Universidad de Investigación de Tecnología Experimental Yachay Tech: GitHub=Null, Website=https://twitter.com/UniYachayTech, https://www.yac..., Social=https://twitter.com/UniYachayTech, Location=Null
+2025-12-17 14:25:45,075 - INFO - Processing 16247/323527: AMP Classification
+2025-12-17 14:25:45,075 - INFO - Scraping details for: https://huggingface.co/ampclass
+2025-12-17 14:25:45,372 - INFO - [OK] AMP Classification: GitHub=Null, Website=Null, Social=Null, Location=Null
+2025-12-17 14:25:46,376 - INFO - Processing 16248/323527: Foundation Model Group at Guangming Laboratory
+2025-12-17 14:25:46,376 - INFO - Scraping details for: https://huggingface.co/GML-FMGroup
+2025-12-17 14:25:46,804 - INFO - [OK] Foundation Model Group at Guangming Laboratory: GitHub=https://github.com/GML-FMGroup, https://github.com..., Website=https://github.com/GML-FMGroup, https://github.com..., Social=Null, Location=Null
+2025-12-17 14:25:47,806 - INFO - Processing 16249/323527: ImpiCode Sp. z o.o.
+2025-12-17 14:25:47,807 - INFO - Scraping details for: https://huggingface.co/ImpiCode
+2025-12-17 14:25:48,093 - INFO - [OK] ImpiCode Sp. z o.o.: GitHub=Null, Website=https://impicode.pl, Social=Null, Location=Null
